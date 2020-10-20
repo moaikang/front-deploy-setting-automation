@@ -1,1 +1,0 @@
-  scp setting.sh YOUR_ID@YOUR_PUBLIC_IP:/home/YOUR_ID/
