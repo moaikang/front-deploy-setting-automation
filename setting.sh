@@ -11,8 +11,8 @@ sudo npm i pm2 -g
 
 # git
 sudo apt-get install git
-sudo git config --global moaikang # GitHub 닉네임으로 변경 하세요!
-sudo git config --global kk_w1207@naver.com # GitHub 이메일로 변경하세요!
+sudo git config --global YOUR_GITHUB_NICKNAME # GitHub 닉네임으로 변경 하세요!
+sudo git config --global YOUR_GITHUB_EMAIL # GitHub 이메일로 변경하세요!
 
 sudo su -
 
@@ -29,9 +29,9 @@ cd etc/nginx/sites-available/
 sudo cat <<EOT >> node-server
 server {
     listen 80;
-    server_name 101.101.210.118;
+    server_name YOUR_PUBLIC_IP;
     location / {
-        proxy_pass http://127.0.0.1:3000;
+        proxy_pass http://127.0.0.1:YOUR_FRONT_PORT;
     }
 }
 EOT

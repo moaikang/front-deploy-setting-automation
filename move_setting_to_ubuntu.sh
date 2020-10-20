@@ -1,1 +1,1 @@
-  scp setting.sh moai@101.101.210.118:/home/moai/
+  scp setting.sh YOUR_ID@YOUR_PUBLIC_IP:/home/YOUR_ID/
