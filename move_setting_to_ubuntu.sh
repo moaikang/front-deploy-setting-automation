@@ -1,0 +1,1 @@
+  scp setting.sh moai@101.101.210.118:/home/moai/
